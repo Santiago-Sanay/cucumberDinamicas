@@ -1,0 +1,278 @@
+[
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_activity_login.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_activity_custom_notification.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/activity_custom_notification.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_logo_iasa1.jpg.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/logo_iasa1.jpg"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_border.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/border.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_activity_formulario_pasantes.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/activity_formulario_pasantes.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_logo2.png.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/logo2.png"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/mipmap-hdpi_ic_sheets.png.flat",
+        "source": "com.alex.ultim2.app-main-39:/mipmap-hdpi/ic_sheets.png"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/mipmap-hdpi_logo.png.flat",
+        "source": "com.alex.ultim2.app-main-39:/mipmap-hdpi/logo.png"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_iasa_vaca2.jpg.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/iasa_vaca2.jpg"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.alex.ultim2.app-main-39:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.alex.ultim2.app-main-39:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/xml_data_extraction_rules.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.alex.ultim2.app-main-39:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_activity_user_details.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/activity_user_details.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/mipmap-xxxhdpi_ic_sheets.png.flat",
+        "source": "com.alex.ultim2.app-main-39:/mipmap-xxxhdpi/ic_sheets.png"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.alex.ultim2.app-main-39:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/mipmap-xhdpi_ic_sheets.png.flat",
+        "source": "com.alex.ultim2.app-main-39:/mipmap-xhdpi/ic_sheets.png"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_iasa_profes.jpg.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/iasa_profes.jpg"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_ic_logo_espe.png.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/ic_logo_espe.png"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_iasa_vaca.jpg.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/iasa_vaca.jpg"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_edittext_border_blue.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/edittext_border_blue.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_actividad_profesional.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/actividad_profesional.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.alex.ultim2.app-main-39:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_activity_formulario_pecuaria.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/activity_formulario_pecuaria.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_fondo_principal.jpg.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/fondo_principal.jpg"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.alex.ultim2.app-main-39:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_activity_formulario_profesional.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/activity_formulario_profesional.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_activity_formulario_agricola.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/activity_formulario_agricola.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_ic_add.png.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/ic_add.png"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_icc_logo_2.png.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/icc_logo_2.png"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_activity_formulario_capacitacion.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/activity_formulario_capacitacion.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_update_campo_profesional.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/update_campo_profesional.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_iasa_campus.jpg.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/iasa_campus.jpg"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_activitymap.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/activitymap.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_activity_formulario_conferencias.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/activity_formulario_conferencias.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_activity_update_password.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/activity_update_password.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_checkbox_rounded_background_checked.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/checkbox_rounded_background_checked.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_item_actividadprofesional.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/item_actividadprofesional.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_activity_formulario.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/activity_formulario.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_mas.png.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/mas.png"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_update_data_activity_layout.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/update_data_activity_layout.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_item_notification.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/item_notification.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_item_formacion_academica.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/item_formacion_academica.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_bg_input.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/bg_input.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_iasa2.jpg.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/iasa2.jpg"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_iasa_ninas.jpg.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/iasa_ninas.jpg"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/mipmap-xxhdpi_ic_sheets.png.flat",
+        "source": "com.alex.ultim2.app-main-39:/mipmap-xxhdpi/ic_sheets.png"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_item_list.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/item_list.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/mipmap-mdpi_ic_sheets.png.flat",
+        "source": "com.alex.ultim2.app-main-39:/mipmap-mdpi/ic_sheets.png"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/mipmap-hdpi_ic_logo_espe.png.flat",
+        "source": "com.alex.ultim2.app-main-39:/mipmap-hdpi/ic_logo_espe.png"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_checkbox_rounded_background_unchecked.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/checkbox_rounded_background_unchecked.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_profesional_activity.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/profesional_activity.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_main_activity.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/main_activity.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_sugerencias_activity.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/sugerencias_activity.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_check_fill0_wght400_grad0_opsz48.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/check_fill0_wght400_grad0_opsz48.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_rounded_checkbox.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/rounded_checkbox.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/xml_backup_rules.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.alex.ultim2.app-main-39:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_bg_button.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/bg_button.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.alex.ultim2.app-main-39:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_notification_activity.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/notification_activity.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.alex.ultim2.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/drawable_menos.png.flat",
+        "source": "com.alex.ultim2.app-main-39:/drawable/menos.png"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.alex.ultim2.app-main-39:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.alex.ultim2.app-merged_res-37:/layout_item_person.xml.flat",
+        "source": "com.alex.ultim2.app-main-39:/layout/item_person.xml"
+    }
+]

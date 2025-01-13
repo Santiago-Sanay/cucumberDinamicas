@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="modalidades">
+        <item>Presencial</item>
+        <item>En línea</item>
+        <item>Híbrido</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="green">#8BC34A</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#FF0000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <item name="recycler_formacion" type="id"/>
+    <string name="app_name">Seguimiento a Graduados IASA</string>
+    <string name="gcm_defaultSenderId" translatable="false">638381747560</string>
+    <string name="google_api_key" translatable="false">AIzaSyDYtChRGuezm9rvEI5oS07AY4XtNhaHNT8</string>
+    <string name="google_app_id" translatable="false">1:638381747560:android:5460da60d34c06e6d9badd</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDYtChRGuezm9rvEI5oS07AY4XtNhaHNT8</string>
+    <string name="google_storage_bucket" translatable="false">iasa-graduados-c762a.appspot.com</string>
+    <string name="hint_latitud">latitud</string>
+    <string name="hint_longitud">longitud</string>
+    <string name="project_id" translatable="false">iasa-graduados-c762a</string>
+    <string name="todo">TODO</string>
+    <string name="txt_addPerson">Agregar nueva persona</string>
+    <string name="txt_age">Edad:</string>
+    <string name="txt_birthday">Cumpleaños</string>
+    <string name="txt_email">Correo electrónico</string>
+    <string name="txt_enter">Ingresar</string>
+    <string name="txt_id">Cédula:</string>
+    <string name="txt_name">Nombre</string>
+    <string name="txt_password">Contraseña:</string>
+    <string name="txt_phone">Nro de teléfono</string>
+    <string name="txt_register">Registrar</string>
+    <string name="txt_surname">Apellido</string>
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:background">@android:color/white</item> 
+        <item name="android:textColor">@android:color/black</item> 
+        <item name="android:textSize">16sp</item> 
+        <item name="android:padding">16dp</item> 
+
+    </style>
+    <style name="Theme.SaveGoogleSheets" parent="Theme.MaterialComponents.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/white</item>
+
+    </style>
+</resources>
