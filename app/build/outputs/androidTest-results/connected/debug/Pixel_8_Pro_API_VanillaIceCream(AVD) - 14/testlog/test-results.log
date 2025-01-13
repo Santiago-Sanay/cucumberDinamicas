@@ -63,7 +63,7 @@ INSTRUMENTATION_STATUS: test=Scenario Outline Actualizar contraseña correctamen
 INSTRUMENTATION_STATUS_CODE: 1
 INSTRUMENTATION_STATUS: class=Feature Cambio de Contraseña
 INSTRUMENTATION_STATUS: numtests=14
-INSTRUMENTATION_STATUS: stack=androidx.test.espresso.NoMatchingViewException: No views in hierarchy found matching: view.getId() is <2131296666/com.alex.ultim2:id/passwordEditText>
+INSTRUMENTATION_STATUS: stack=androidx.test.espresso.NoMatchingViewException: No views in hierarchy found matching: view.getId() is <2131296577/com.alex.ultim2:id/loginButton>
 
 View Hierarchy:
 +>DecorView{id=-1, visibility=VISIBLE, width=1344, height=2992, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params={(0,0)(fillxfill) ty=BASE_APPLICATION wanim=0x1030308
@@ -122,8 +122,8 @@ at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandle
 at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
 at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
 at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
-at com.alex.ultim2.test.UpdatePasswordTest.I_input_password_for_update_password(UpdatePasswordTest.java:59)
-at ✽.And Ingreso la contraseña1 1718605155(features/change_password.feature:8)
+at com.alex.ultim2.test.UpdatePasswordTest.I_press_submit_button_for_update_password(UpdatePasswordTest.java:67)
+at ✽.And Presiono el botón de enviar1(features/change_password.feature:9)
 
 INSTRUMENTATION_STATUS: test=Scenario Outline Actualizar contraseña correctamente
 INSTRUMENTATION_STATUS_CODE: -1
@@ -330,36 +330,17 @@ INSTRUMENTATION_STATUS: test=Scenario Outline Actualizar datos personales correc
 INSTRUMENTATION_STATUS_CODE: 1
 INSTRUMENTATION_STATUS: class=Feature Actualización de Datos Personales
 INSTRUMENTATION_STATUS: numtests=14
-INSTRUMENTATION_STATUS: stack=androidx.test.espresso.PerformException: Error performing 'fast swipe' on view 'Animations or transitions are enabled on the target device.
-For more info check: https://developer.android.com/training/testing/espresso/setup#set-up-environment
-
-view.getId() is <2131296360/com.alex.ultim2:id/buttonSave>'.
-at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
-at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)
-at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)
+INSTRUMENTATION_STATUS: stack=androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?
+at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+at java.lang.Thread.getStackTrace(Thread.java:1841)
+at androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:2)
+at androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:1)
 at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
 at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
 at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
-at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
-at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
-at com.alex.ultim2.test.UpdateUserDataTest.presionaElBotonParaGuardarCambios(UpdateUserDataTest.java:104)
-at ✽.And Presiona el botón para guardar los cambios(features/updatedatauser.feature:16)
-Caused by: java.lang.RuntimeException: Action will not be performed because the target view does not match one or more of the following constraints:
-(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <90> percent of the view's area)
-Target view: "MaterialButton{id=2131296360, res-name=buttonSave, visibility=VISIBLE, width=1248, height=144, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=2792.0, text=Guardar cambios, input-type=0, ime-target=false, has-links=false, is-checked=false}"
-at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:20)
-at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
-at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
-at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
-at java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at android.os.Handler.handleCallback(Handler.java:959)
-at android.os.Handler.dispatchMessage(Handler.java:100)
-at android.os.Looper.loopOnce(Looper.java:232)
-at android.os.Looper.loop(Looper.java:317)
-at android.app.ActivityThread.main(ActivityThread.java:8628)
-at java.lang.reflect.Method.invoke(Native Method)
-at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
-at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:878)
+at androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)
+at com.alex.ultim2.test.UpdateUserDataTest.deberiaVerPantallaDeActualizacionDeDatos(UpdateUserDataTest.java:82)
+at ✽.Then Debería ver la pantalla de actualización de datos personales(features/updatedatauser.feature:12)
 
 INSTRUMENTATION_STATUS: test=Scenario Outline Actualizar datos personales correctamente
 INSTRUMENTATION_STATUS_CODE: -1
@@ -367,3 +348,61 @@ INSTRUMENTATION_STATUS: class=Feature Actualización de Datos Personales
 INSTRUMENTATION_STATUS: numtests=14
 INSTRUMENTATION_STATUS: test=Scenario Outline Actualizar datos personales correctamente
 INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=Feature Actualización de Datos Personales
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stack=androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?
+at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+at java.lang.Thread.getStackTrace(Thread.java:1841)
+at androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:2)
+at androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:1)
+at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+at androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)
+at com.alex.ultim2.test.UpdateUserDataTest.deberiaVerPantallaDeActualizacionDeDatos(UpdateUserDataTest.java:82)
+at ✽.Then Debería ver la pantalla de actualización de datos personales(features/updatedatauser.feature:12)
+
+INSTRUMENTATION_STATUS: test=Scenario Outline Actualizar datos personales correctamente
+INSTRUMENTATION_STATUS_CODE: -1
+INSTRUMENTATION_STATUS: class=Feature Actualización de Datos Personales
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: test=Scenario Outline Actualizar datos personales incorrectamente
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=Feature Actualización de Datos Personales
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stack=androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?
+at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+at java.lang.Thread.getStackTrace(Thread.java:1841)
+at androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:2)
+at androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:1)
+at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+at androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)
+at com.alex.ultim2.test.UpdateUserDataTest.deberiaVerPantallaDeActualizacionDeDatos(UpdateUserDataTest.java:82)
+at ✽.Then Debería ver la pantalla de actualización de datos personales(features/updatedatauser.feature:32)
+
+INSTRUMENTATION_STATUS: test=Scenario Outline Actualizar datos personales incorrectamente
+INSTRUMENTATION_STATUS_CODE: -1
+INSTRUMENTATION_STATUS: class=Feature Actualización de Datos Personales
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: test=Scenario Outline Actualizar datos personales incorrectamente
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=Feature Actualización de Datos Personales
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stack=androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?
+at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+at java.lang.Thread.getStackTrace(Thread.java:1841)
+at androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:2)
+at androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:1)
+at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+at androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)
+at com.alex.ultim2.test.UpdateUserDataTest.deberiaVerPantallaDeActualizacionDeDatos(UpdateUserDataTest.java:82)
+at ✽.Then Debería ver la pantalla de actualización de datos personales(features/updatedatauser.feature:32)
+
+INSTRUMENTATION_STATUS: test=Scenario Outline Actualizar datos personales incorrectamente
+INSTRUMENTATION_STATUS_CODE: -1
+INSTRUMENTATION_CODE: -1
+

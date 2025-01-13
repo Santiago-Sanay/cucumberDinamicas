@@ -27,7 +27,13 @@ import androidx.test.runner.MonitoringInstrumentation;
 import cucumber.api.CucumberOptions;
 import cucumber.api.android.CucumberInstrumentationCore;
 
-@CucumberOptions(features = "features", glue = "com.alex.ultim2.test")
+@CucumberOptions(features = "features",
+        glue = "com.alex.ultim2.test",
+        plugin = {"json:/storage/emulated/0/Download/cucumber-report.json", "pretty"}, // Generar JSON
+        monochrome = true // Mejor legibilidad de salida
+
+
+)
 public class Instrumentation extends MonitoringInstrumentation {
 
     private final CucumberInstrumentationCore instrumentationCore = new CucumberInstrumentationCore(this);

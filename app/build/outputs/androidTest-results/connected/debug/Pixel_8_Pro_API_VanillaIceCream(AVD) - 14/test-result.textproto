@@ -1,0 +1,775 @@
+# 2025-01-13T19:31:52.141273600Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 14
+}
+test_status: FAILED
+test_result {
+  test_case {
+    test_class: "Feature Cambio de Contrase\303\261a"
+    test_method: "Scenario Outline Actualizar contrase\303\261a correctamente"
+    start_time {
+      seconds: 1736796321
+      nanos: 43000000
+    }
+    end_time {
+      seconds: 1736796340
+      nanos: 322000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "androidx.test.espresso.NoMatchingViewException: No views in hierarchy found matching: view.getId() is <2131296890/com.alex.ultim2:id/updatePasswordButton>\n\nView Hierarchy:\n+>DecorView{id=-1, visibility=VISIBLE, width=1344, height=2992, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params={(0,0)(fillxfill) ty=BASE_APPLICATION wanim=0x1030308\nfl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS\npfl=NO_MOVE_ANIMATION FORCE_DRAW_STATUS_BAR_BACKGROUND FIT_INSETS_CONTROLLED\nbhv=DEFAULT\nfitSides=}, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=3}\n|\n+->LinearLayout{id=-1, visibility=VISIBLE, width=1344, height=2920, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}\n|\n+-->ViewStub{id=16908747, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\n|\n+-->FrameLayout{id=-1, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=136.0, child-count=1}\n|\n+--->FitWindowsLinearLayout{id=2131296309, res-name=action_bar_root, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}\n|\n+---->ViewStubCompat{id=2131296320, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\n|\n+---->ContentFrameLayout{id=16908290, res-name=content, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=1}\n|\n+----->LinearLayout{id=-1, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=6}\n|\n+------>MaterialTextView{id=-1, visibility=VISIBLE, width=935, height=177, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=204.0, y=762.0, text=IASA Seguimiento a graduados, input-type=0, ime-target=false, has-links=false}\n|\n+------>AppCompatImageView{id=-1, visibility=VISIBLE, width=384, height=444, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=480.0, y=945.0}\n|\n+------>MaterialTextView{id=2131296501, res-name=errorTextView, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, text=, input-type=0, ime-target=false, has-links=false}\n|\n+------>AppCompatEditText{id=2131296895, res-name=usernameEditText, visibility=VISIBLE, width=864, height=169, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=true, editor-info=[inputType=0x1 imeOptions=0x8000005 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=10 initialSelEnd=10 initialToolType=0 initialCapsMode=0x0 hintText=Ingrese Cedula de Identidad label=null packageName=null autofillId=null fieldId=0 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, android.support.text.emoji.emojiCompat_replaceAll=false}] hintLocales=null supportedHandwritingGestureTypes=SELECT|SELECT_RANGE|INSERT|DELETE|DELETE_RANGE|REMOVE_SPACE|JOIN_OR_SPLIT supportedHandwritingGesturePreviewTypes=SELECT|SELECT_RANGE|DELETE|DELETE_RANGE isStylusHandwritingEnabled=false contentMimeTypes=null ], x=240.0, y=1437.0, text=1718605155, hint=Ingrese Cedula de Identidad, input-type=1, ime-target=false, has-links=false}\n|\n+------>AppCompatEditText{id=2131296666, res-name=passwordEditText, visibility=VISIBLE, width=846, height=169, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=true, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=true, editor-info=[inputType=0x81 imeOptions=0x4000006 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=10 initialSelEnd=10 initialToolType=0 initialCapsMode=0x0 hintText=Contrase\303\261a label=null packageName=null autofillId=null fieldId=0 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, android.support.text.emoji.emojiCompat_replaceAll=false}] hintLocales=null supportedHandwritingGestureTypes=SELECT|SELECT_RANGE|INSERT|DELETE|DELETE_RANGE|REMOVE_SPACE|JOIN_OR_SPLIT supportedHandwritingGesturePreviewTypes=SELECT|SELECT_RANGE|DELETE|DELETE_RANGE isStylusHandwritingEnabled=false contentMimeTypes=null ], x=249.0, y=1654.0, text=1718605155, hint=Contrase\303\261a, input-type=129, ime-target=true, has-links=false}\n|\n+------>MaterialButton{id=2131296577, res-name=loginButton, visibility=VISIBLE, width=448, height=144, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=448.0, y=1853.0, text=Iniciar sesi\303\263n, input-type=0, ime-target=false, has-links=false, is-checked=false}\n|\n+->View{id=16908336, res-name=navigationBarBackground, visibility=VISIBLE, width=1344, height=72, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=2920.0}\n|\n+->View{id=16908335, res-name=statusBarBackground, visibility=VISIBLE, width=1344, height=136, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\nThe complete view hierarchy is available in artifact file \'view-hierarchy-1.txt\'.\nat androidx.test.espresso.NoMatchingViewException$Builder.build(NoMatchingViewException.java:5)\nat androidx.test.espresso.base.DefaultFailureHandler.lambda$getNoMatchingViewExceptionTruncater$0(DefaultFailureHandler.java:5)\nat androidx.test.espresso.base.DefaultFailureHandler$$ExternalSyntheticLambda1.truncateExceptionMessage(Unknown Source:2)\nat androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:5)\nat androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:1)\nat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.alex.ultim2.test.UpdatePasswordTest.I_should_see_on_next_activity_update_password(UpdatePasswordTest.java:75)\nat \342\234\275.And Deber\303\255a ver la siguiente actividad1(features/change_password.feature:10)\n"
+    error_type: "androidx.test.espresso.NoMatchingViewException"
+    stack_trace: "androidx.test.espresso.NoMatchingViewException: No views in hierarchy found matching: view.getId() is <2131296890/com.alex.ultim2:id/updatePasswordButton>\n\nView Hierarchy:\n+>DecorView{id=-1, visibility=VISIBLE, width=1344, height=2992, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params={(0,0)(fillxfill) ty=BASE_APPLICATION wanim=0x1030308\nfl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS\npfl=NO_MOVE_ANIMATION FORCE_DRAW_STATUS_BAR_BACKGROUND FIT_INSETS_CONTROLLED\nbhv=DEFAULT\nfitSides=}, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=3}\n|\n+->LinearLayout{id=-1, visibility=VISIBLE, width=1344, height=2920, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}\n|\n+-->ViewStub{id=16908747, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\n|\n+-->FrameLayout{id=-1, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=136.0, child-count=1}\n|\n+--->FitWindowsLinearLayout{id=2131296309, res-name=action_bar_root, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}\n|\n+---->ViewStubCompat{id=2131296320, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\n|\n+---->ContentFrameLayout{id=16908290, res-name=content, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=1}\n|\n+----->LinearLayout{id=-1, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=6}\n|\n+------>MaterialTextView{id=-1, visibility=VISIBLE, width=935, height=177, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=204.0, y=762.0, text=IASA Seguimiento a graduados, input-type=0, ime-target=false, has-links=false}\n|\n+------>AppCompatImageView{id=-1, visibility=VISIBLE, width=384, height=444, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=480.0, y=945.0}\n|\n+------>MaterialTextView{id=2131296501, res-name=errorTextView, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, text=, input-type=0, ime-target=false, has-links=false}\n|\n+------>AppCompatEditText{id=2131296895, res-name=usernameEditText, visibility=VISIBLE, width=864, height=169, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=true, editor-info=[inputType=0x1 imeOptions=0x8000005 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=10 initialSelEnd=10 initialToolType=0 initialCapsMode=0x0 hintText=Ingrese Cedula de Identidad label=null packageName=null autofillId=null fieldId=0 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, android.support.text.emoji.emojiCompat_replaceAll=false}] hintLocales=null supportedHandwritingGestureTypes=SELECT|SELECT_RANGE|INSERT|DELETE|DELETE_RANGE|REMOVE_SPACE|JOIN_OR_SPLIT supportedHandwritingGesturePreviewTypes=SELECT|SELECT_RANGE|DELETE|DELETE_RANGE isStylusHandwritingEnabled=false contentMimeTypes=null ], x=240.0, y=1437.0, text=1718605155, hint=Ingrese Cedula de Identidad, input-type=1, ime-target=false, has-links=false}\n|\n+------>AppCompatEditText{id=2131296666, res-name=passwordEditText, visibility=VISIBLE, width=846, height=169, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=true, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=true, editor-info=[inputType=0x81 imeOptions=0x4000006 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=10 initialSelEnd=10 initialToolType=0 initialCapsMode=0x0 hintText=Contrase\303\261a label=null packageName=null autofillId=null fieldId=0 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, android.support.text.emoji.emojiCompat_replaceAll=false}] hintLocales=null supportedHandwritingGestureTypes=SELECT|SELECT_RANGE|INSERT|DELETE|DELETE_RANGE|REMOVE_SPACE|JOIN_OR_SPLIT supportedHandwritingGesturePreviewTypes=SELECT|SELECT_RANGE|DELETE|DELETE_RANGE isStylusHandwritingEnabled=false contentMimeTypes=null ], x=249.0, y=1654.0, text=1718605155, hint=Contrase\303\261a, input-type=129, ime-target=true, has-links=false}\n|\n+------>MaterialButton{id=2131296577, res-name=loginButton, visibility=VISIBLE, width=448, height=144, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=448.0, y=1853.0, text=Iniciar sesi\303\263n, input-type=0, ime-target=false, has-links=false, is-checked=false}\n|\n+->View{id=16908336, res-name=navigationBarBackground, visibility=VISIBLE, width=1344, height=72, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=2920.0}\n|\n+->View{id=16908335, res-name=statusBarBackground, visibility=VISIBLE, width=1344, height=136, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\nThe complete view hierarchy is available in artifact file \'view-hierarchy-1.txt\'.\nat androidx.test.espresso.NoMatchingViewException$Builder.build(NoMatchingViewException.java:5)\nat androidx.test.espresso.base.DefaultFailureHandler.lambda$getNoMatchingViewExceptionTruncater$0(DefaultFailureHandler.java:5)\nat androidx.test.espresso.base.DefaultFailureHandler$$ExternalSyntheticLambda1.truncateExceptionMessage(Unknown Source:2)\nat androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:5)\nat androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:1)\nat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.alex.ultim2.test.UpdatePasswordTest.I_should_see_on_next_activity_update_password(UpdatePasswordTest.java:75)\nat \342\234\275.And Deber\303\255a ver la siguiente actividad1(features/change_password.feature:10)\n"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\logcat-.Feature Cambio de Contrase\303\261a-Scenario Outline Actualizar contrase\303\261a correctamente.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "Feature Cambio de Contrase\303\261a"
+    test_method: "Scenario Outline Actualizar contrase\303\261a correctamente"
+    start_time {
+      seconds: 1736796340
+      nanos: 431000000
+    }
+    end_time {
+      seconds: 1736796356
+      nanos: 977000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "androidx.test.espresso.NoMatchingViewException: No views in hierarchy found matching: view.getId() is <2131296577/com.alex.ultim2:id/loginButton>\n\nView Hierarchy:\n+>DecorView{id=-1, visibility=VISIBLE, width=1344, height=2992, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params={(0,0)(fillxfill) ty=BASE_APPLICATION wanim=0x1030308\nfl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS\npfl=NO_MOVE_ANIMATION FORCE_DRAW_STATUS_BAR_BACKGROUND FIT_INSETS_CONTROLLED\nbhv=DEFAULT\nfitSides=}, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=3}\n|\n+->LinearLayout{id=-1, visibility=VISIBLE, width=1344, height=2920, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}\n|\n+-->ViewStub{id=16908747, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\n|\n+-->FrameLayout{id=-1, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=136.0, child-count=1}\n|\n+--->FitWindowsLinearLayout{id=2131296309, res-name=action_bar_root, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}\n|\n+---->ViewStubCompat{id=2131296320, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\n|\n+---->ContentFrameLayout{id=16908290, res-name=content, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=1}\n|\n+----->ConstraintLayout{id=-1, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}\n|\n+------>LinearLayout{id=-1, visibility=VISIBLE, width=1248, height=417, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=48.0, y=48.0, child-count=2}\n|\n+------->MaterialTextView{id=-1, visibility=VISIBLE, width=581, height=177, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=333.0, y=0.0, text=MEN\303\232 PRINCIPAL, input-type=0, ime-target=false, has-links=false}\n|\n+------->AppCompatImageView{id=-1, desc=Logo de IASA, visibility=VISIBLE, width=1248, height=240, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=177.0}\n|\n+------>LinearLayout{id=-1, visibility=VISIBLE, width=1248, height=1200, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=48.0, y=822.0, child-count=7}\n|\n+------->MaterialButton{id=2131296890, res-name=updatePasswordButton, visibility=VISIBLE, width=1200, height=144, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=true, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=24.0, y=24.0, text=Actualizar contrase\303\261a, input-type=0, ime-target=true, has-links=false, is-checked=false}\n|\n+------->MaterialButton{id=2131296896, res-name=viewDataButton, visibility=VISIBLE, width=1200, height=144, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=24.0, y=192.0, text=Datos personales, input-type=0, ime-target=false, has-links=false, is-checked=false}\n|\n+------->MaterialButton{id=2131296887, res-name=updateDataButton, visibility=VISIBLE, width=1200, height=144, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=24.0, y=360.0, text=Actualizar datos personales, input-type=0, ime-target=false, has-links=false, is-checked=false}\n|\n+------->MaterialButton{id=2131296897, res-name=viewPostgrados, visibility=VISIBLE, width=1200, height=144, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=24.0, y=528.0, text=Campo profesional, input-type=0, ime-target=false, has-links=false, is-checked=false}\n|\n+------->MaterialButton{id=2131296892, res-name=updatePostgrados1, visibility=VISIBLE, width=1200, height=144, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=24.0, y=696.0, text=Actualizar Campo profesional, input-type=0, ime-target=false, has-links=false, is-checked=false}\n|\n+------->MaterialButton{id=2131296652, res-name=noticias, visibility=VISIBLE, width=1200, height=144, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=24.0, y=864.0, text=Noticias, input-type=0, ime-target=false, has-links=false, is-checked=false}\n|\n+------->MaterialButton{id=2131296578, res-name=logoutButton, visibility=VISIBLE, width=1200, height=144, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=24.0, y=1032.0, text=Salir, input-type=0, ime-target=false, has-links=false, is-checked=false}\n|\n+->View{id=16908336, res-name=navigationBarBackground, visibility=VISIBLE, width=1344, height=72, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=2920.0}\n|\n+->View{id=16908335, res-name=statusBarBackground, visibility=VISIBLE, width=1344, height=136, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\nThe complete view hierarchy is available in artifact file \'view-hierarchy-2.txt\'.\nat androidx.test.espresso.NoMatchingViewException$Builder.build(NoMatchingViewException.java:5)\nat androidx.test.espresso.base.DefaultFailureHandler.lambda$getNoMatchingViewExceptionTruncater$0(DefaultFailureHandler.java:5)\nat androidx.test.espresso.base.DefaultFailureHandler$$ExternalSyntheticLambda1.truncateExceptionMessage(Unknown Source:2)\nat androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:5)\nat androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:1)\nat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)\nat androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)\nat com.alex.ultim2.test.UpdatePasswordTest.I_press_submit_button_for_update_password(UpdatePasswordTest.java:67)\nat \342\234\275.And Presiono el bot\303\263n de enviar1(features/change_password.feature:9)\n"
+    error_type: "androidx.test.espresso.NoMatchingViewException"
+    stack_trace: "androidx.test.espresso.NoMatchingViewException: No views in hierarchy found matching: view.getId() is <2131296577/com.alex.ultim2:id/loginButton>\n\nView Hierarchy:\n+>DecorView{id=-1, visibility=VISIBLE, width=1344, height=2992, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params={(0,0)(fillxfill) ty=BASE_APPLICATION wanim=0x1030308\nfl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS\npfl=NO_MOVE_ANIMATION FORCE_DRAW_STATUS_BAR_BACKGROUND FIT_INSETS_CONTROLLED\nbhv=DEFAULT\nfitSides=}, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=3}\n|\n+->LinearLayout{id=-1, visibility=VISIBLE, width=1344, height=2920, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}\n|\n+-->ViewStub{id=16908747, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\n|\n+-->FrameLayout{id=-1, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=136.0, child-count=1}\n|\n+--->FitWindowsLinearLayout{id=2131296309, res-name=action_bar_root, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}\n|\n+---->ViewStubCompat{id=2131296320, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\n|\n+---->ContentFrameLayout{id=16908290, res-name=content, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=1}\n|\n+----->ConstraintLayout{id=-1, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}\n|\n+------>LinearLayout{id=-1, visibility=VISIBLE, width=1248, height=417, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=48.0, y=48.0, child-count=2}\n|\n+------->MaterialTextView{id=-1, visibility=VISIBLE, width=581, height=177, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=333.0, y=0.0, text=MEN\303\232 PRINCIPAL, input-type=0, ime-target=false, has-links=false}\n|\n+------->AppCompatImageView{id=-1, desc=Logo de IASA, visibility=VISIBLE, width=1248, height=240, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=177.0}\n|\n+------>LinearLayout{id=-1, visibility=VISIBLE, width=1248, height=1200, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=48.0, y=822.0, child-count=7}\n|\n+------->MaterialButton{id=2131296890, res-name=updatePasswordButton, visibility=VISIBLE, width=1200, height=144, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=true, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=24.0, y=24.0, text=Actualizar contrase\303\261a, input-type=0, ime-target=true, has-links=false, is-checked=false}\n|\n+------->MaterialButton{id=2131296896, res-name=viewDataButton, visibility=VISIBLE, width=1200, height=144, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=24.0, y=192.0, text=Datos personales, input-type=0, ime-target=false, has-links=false, is-checked=false}\n|\n+------->MaterialButton{id=2131296887, res-name=updateDataButton, visibility=VISIBLE, width=1200, height=144, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=24.0, y=360.0, text=Actualizar datos personales, input-type=0, ime-target=false, has-links=false, is-checked=false}\n|\n+------->MaterialButton{id=2131296897, res-name=viewPostgrados, visibility=VISIBLE, width=1200, height=144, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=24.0, y=528.0, text=Campo profesional, input-type=0, ime-target=false, has-links=false, is-checked=false}\n|\n+------->MaterialButton{id=2131296892, res-name=updatePostgrados1, visibility=VISIBLE, width=1200, height=144, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=24.0, y=696.0, text=Actualizar Campo profesional, input-type=0, ime-target=false, has-links=false, is-checked=false}\n|\n+------->MaterialButton{id=2131296652, res-name=noticias, visibility=VISIBLE, width=1200, height=144, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=24.0, y=864.0, text=Noticias, input-type=0, ime-target=false, has-links=false, is-checked=false}\n|\n+------->MaterialButton{id=2131296578, res-name=logoutButton, visibility=VISIBLE, width=1200, height=144, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=24.0, y=1032.0, text=Salir, input-type=0, ime-target=false, has-links=false, is-checked=false}\n|\n+->View{id=16908336, res-name=navigationBarBackground, visibility=VISIBLE, width=1344, height=72, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=2920.0}\n|\n+->View{id=16908335, res-name=statusBarBackground, visibility=VISIBLE, width=1344, height=136, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\nThe complete view hierarchy is available in artifact file \'view-hierarchy-2.txt\'.\nat androidx.test.espresso.NoMatchingViewException$Builder.build(NoMatchingViewException.java:5)\nat androidx.test.espresso.base.DefaultFailureHandler.lambda$getNoMatchingViewExceptionTruncater$0(DefaultFailureHandler.java:5)\nat androidx.test.espresso.base.DefaultFailureHandler$$ExternalSyntheticLambda1.truncateExceptionMessage(Unknown Source:2)\nat androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:5)\nat androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:1)\nat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)\nat androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)\nat com.alex.ultim2.test.UpdatePasswordTest.I_press_submit_button_for_update_password(UpdatePasswordTest.java:67)\nat \342\234\275.And Presiono el bot\303\263n de enviar1(features/change_password.feature:9)\n"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\logcat-.Feature Cambio de Contrase\303\261a-Scenario Outline Actualizar contrase\303\261a correctamente.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "Feature Cambio de Contrase\303\261a"
+    test_method: "Scenario Outline Actualizar contrase\303\261a correctamente"
+    start_time {
+      seconds: 1736796356
+      nanos: 997000000
+    }
+    end_time {
+      seconds: 1736796371
+      nanos: 347000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "androidx.test.espresso.NoMatchingViewException: No views in hierarchy found matching: view.getId() is <2131296890/com.alex.ultim2:id/updatePasswordButton>\n\nView Hierarchy:\n+>DecorView{id=-1, visibility=VISIBLE, width=1344, height=2992, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params={(0,0)(fillxfill) ty=BASE_APPLICATION wanim=0x1030308\nfl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS\npfl=NO_MOVE_ANIMATION FORCE_DRAW_STATUS_BAR_BACKGROUND FIT_INSETS_CONTROLLED\nbhv=DEFAULT\nfitSides=}, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=3}\n|\n+->LinearLayout{id=-1, visibility=VISIBLE, width=1344, height=2920, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}\n|\n+-->ViewStub{id=16908747, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\n|\n+-->FrameLayout{id=-1, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=136.0, child-count=1}\n|\n+--->FitWindowsLinearLayout{id=2131296309, res-name=action_bar_root, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}\n|\n+---->ViewStubCompat{id=2131296320, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\n|\n+---->ContentFrameLayout{id=16908290, res-name=content, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=1}\n|\n+----->LinearLayout{id=-1, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=6}\n|\n+------>MaterialTextView{id=-1, visibility=VISIBLE, width=935, height=177, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=204.0, y=706.0, text=IASA Seguimiento a graduados, input-type=0, ime-target=false, has-links=false}\n|\n+------>AppCompatImageView{id=-1, visibility=VISIBLE, width=384, height=444, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=480.0, y=889.0}\n|\n+------>MaterialTextView{id=2131296501, res-name=errorTextView, visibility=VISIBLE, width=1344, height=65, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=1381.0, text=Usuario o contrase\303\261a incorrectos, input-type=0, ime-target=false, has-links=false}\n|\n+------>AppCompatEditText{id=2131296895, res-name=usernameEditText, visibility=VISIBLE, width=864, height=169, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=true, editor-info=[inputType=0x1 imeOptions=0x8000005 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=10 initialSelEnd=10 initialToolType=0 initialCapsMode=0x0 hintText=Ingrese Cedula de Identidad label=null packageName=null autofillId=null fieldId=0 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, android.support.text.emoji.emojiCompat_replaceAll=false}] hintLocales=null supportedHandwritingGestureTypes=SELECT|SELECT_RANGE|INSERT|DELETE|DELETE_RANGE|REMOVE_SPACE|JOIN_OR_SPLIT supportedHandwritingGesturePreviewTypes=SELECT|SELECT_RANGE|DELETE|DELETE_RANGE isStylusHandwritingEnabled=false contentMimeTypes=null ], x=240.0, y=1494.0, text=1718605155, hint=Ingrese Cedula de Identidad, input-type=1, ime-target=false, has-links=false}\n|\n+------>AppCompatEditText{id=2131296666, res-name=passwordEditText, visibility=VISIBLE, width=846, height=169, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=true, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=true, editor-info=[inputType=0x81 imeOptions=0x4000006 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=10 initialSelEnd=10 initialToolType=0 initialCapsMode=0x0 hintText=Contrase\303\261a label=null packageName=null autofillId=null fieldId=0 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, android.support.text.emoji.emojiCompat_replaceAll=false}] hintLocales=null supportedHandwritingGestureTypes=SELECT|SELECT_RANGE|INSERT|DELETE|DELETE_RANGE|REMOVE_SPACE|JOIN_OR_SPLIT supportedHandwritingGesturePreviewTypes=SELECT|SELECT_RANGE|DELETE|DELETE_RANGE isStylusHandwritingEnabled=false contentMimeTypes=null ], x=249.0, y=1711.0, text=1718605156, hint=Contrase\303\261a, input-type=129, ime-target=true, has-links=false}\n|\n+------>MaterialButton{id=2131296577, res-name=loginButton, visibility=VISIBLE, width=448, height=144, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=448.0, y=1910.0, text=Iniciar sesi\303\263n, input-type=0, ime-target=false, has-links=false, is-checked=false}\n|\n+->View{id=16908336, res-name=navigationBarBackground, visibility=VISIBLE, width=1344, height=72, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=2920.0}\n|\n+->View{id=16908335, res-name=statusBarBackground, visibility=VISIBLE, width=1344, height=136, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\nThe complete view hierarchy is available in artifact file \'view-hierarchy-3.txt\'.\nat androidx.test.espresso.NoMatchingViewException$Builder.build(NoMatchingViewException.java:5)\nat androidx.test.espresso.base.DefaultFailureHandler.lambda$getNoMatchingViewExceptionTruncater$0(DefaultFailureHandler.java:5)\nat androidx.test.espresso.base.DefaultFailureHandler$$ExternalSyntheticLambda1.truncateExceptionMessage(Unknown Source:2)\nat androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:5)\nat androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:1)\nat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.alex.ultim2.test.UpdatePasswordTest.I_should_see_on_next_activity_update_password(UpdatePasswordTest.java:75)\nat \342\234\275.And Deber\303\255a ver la siguiente actividad1(features/change_password.feature:10)\n"
+    error_type: "androidx.test.espresso.NoMatchingViewException"
+    stack_trace: "androidx.test.espresso.NoMatchingViewException: No views in hierarchy found matching: view.getId() is <2131296890/com.alex.ultim2:id/updatePasswordButton>\n\nView Hierarchy:\n+>DecorView{id=-1, visibility=VISIBLE, width=1344, height=2992, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params={(0,0)(fillxfill) ty=BASE_APPLICATION wanim=0x1030308\nfl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS\npfl=NO_MOVE_ANIMATION FORCE_DRAW_STATUS_BAR_BACKGROUND FIT_INSETS_CONTROLLED\nbhv=DEFAULT\nfitSides=}, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=3}\n|\n+->LinearLayout{id=-1, visibility=VISIBLE, width=1344, height=2920, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}\n|\n+-->ViewStub{id=16908747, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\n|\n+-->FrameLayout{id=-1, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=136.0, child-count=1}\n|\n+--->FitWindowsLinearLayout{id=2131296309, res-name=action_bar_root, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}\n|\n+---->ViewStubCompat{id=2131296320, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\n|\n+---->ContentFrameLayout{id=16908290, res-name=content, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=1}\n|\n+----->LinearLayout{id=-1, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=6}\n|\n+------>MaterialTextView{id=-1, visibility=VISIBLE, width=935, height=177, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=204.0, y=706.0, text=IASA Seguimiento a graduados, input-type=0, ime-target=false, has-links=false}\n|\n+------>AppCompatImageView{id=-1, visibility=VISIBLE, width=384, height=444, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=480.0, y=889.0}\n|\n+------>MaterialTextView{id=2131296501, res-name=errorTextView, visibility=VISIBLE, width=1344, height=65, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=1381.0, text=Usuario o contrase\303\261a incorrectos, input-type=0, ime-target=false, has-links=false}\n|\n+------>AppCompatEditText{id=2131296895, res-name=usernameEditText, visibility=VISIBLE, width=864, height=169, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=true, editor-info=[inputType=0x1 imeOptions=0x8000005 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=10 initialSelEnd=10 initialToolType=0 initialCapsMode=0x0 hintText=Ingrese Cedula de Identidad label=null packageName=null autofillId=null fieldId=0 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, android.support.text.emoji.emojiCompat_replaceAll=false}] hintLocales=null supportedHandwritingGestureTypes=SELECT|SELECT_RANGE|INSERT|DELETE|DELETE_RANGE|REMOVE_SPACE|JOIN_OR_SPLIT supportedHandwritingGesturePreviewTypes=SELECT|SELECT_RANGE|DELETE|DELETE_RANGE isStylusHandwritingEnabled=false contentMimeTypes=null ], x=240.0, y=1494.0, text=1718605155, hint=Ingrese Cedula de Identidad, input-type=1, ime-target=false, has-links=false}\n|\n+------>AppCompatEditText{id=2131296666, res-name=passwordEditText, visibility=VISIBLE, width=846, height=169, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=true, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=true, editor-info=[inputType=0x81 imeOptions=0x4000006 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=10 initialSelEnd=10 initialToolType=0 initialCapsMode=0x0 hintText=Contrase\303\261a label=null packageName=null autofillId=null fieldId=0 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, android.support.text.emoji.emojiCompat_replaceAll=false}] hintLocales=null supportedHandwritingGestureTypes=SELECT|SELECT_RANGE|INSERT|DELETE|DELETE_RANGE|REMOVE_SPACE|JOIN_OR_SPLIT supportedHandwritingGesturePreviewTypes=SELECT|SELECT_RANGE|DELETE|DELETE_RANGE isStylusHandwritingEnabled=false contentMimeTypes=null ], x=249.0, y=1711.0, text=1718605156, hint=Contrase\303\261a, input-type=129, ime-target=true, has-links=false}\n|\n+------>MaterialButton{id=2131296577, res-name=loginButton, visibility=VISIBLE, width=448, height=144, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=448.0, y=1910.0, text=Iniciar sesi\303\263n, input-type=0, ime-target=false, has-links=false, is-checked=false}\n|\n+->View{id=16908336, res-name=navigationBarBackground, visibility=VISIBLE, width=1344, height=72, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=2920.0}\n|\n+->View{id=16908335, res-name=statusBarBackground, visibility=VISIBLE, width=1344, height=136, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\nThe complete view hierarchy is available in artifact file \'view-hierarchy-3.txt\'.\nat androidx.test.espresso.NoMatchingViewException$Builder.build(NoMatchingViewException.java:5)\nat androidx.test.espresso.base.DefaultFailureHandler.lambda$getNoMatchingViewExceptionTruncater$0(DefaultFailureHandler.java:5)\nat androidx.test.espresso.base.DefaultFailureHandler$$ExternalSyntheticLambda1.truncateExceptionMessage(Unknown Source:2)\nat androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:5)\nat androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:1)\nat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.alex.ultim2.test.UpdatePasswordTest.I_should_see_on_next_activity_update_password(UpdatePasswordTest.java:75)\nat \342\234\275.And Deber\303\255a ver la siguiente actividad1(features/change_password.feature:10)\n"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\logcat-.Feature Cambio de Contrase\303\261a-Scenario Outline Actualizar contrase\303\261a correctamente.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "Feature Cambio de Contrase\303\261a"
+    test_method: "Scenario Outline Actualizar contrase\303\261a incorrectamente"
+    start_time {
+      seconds: 1736796371
+      nanos: 369000000
+    }
+    end_time {
+      seconds: 1736796391
+      nanos: 651000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\logcat-.Feature Cambio de Contrase\303\261a-Scenario Outline Actualizar contrase\303\261a incorrectamente.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "Feature Inicio de Sesi\303\263n"
+    test_method: "Scenario Outline Entrada inv\303\241lida de username o password"
+    start_time {
+      seconds: 1736796391
+      nanos: 689000000
+    }
+    end_time {
+      seconds: 1736796401
+      nanos: 559000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\logcat-.Feature Inicio de Sesi\303\263n-Scenario Outline Entrada inv\303\241lida de username o password.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "Feature Inicio de Sesi\303\263n"
+    test_method: "Scenario Outline Entrada inv\303\241lida de username o password"
+    start_time {
+      seconds: 1736796401
+      nanos: 621000000
+    }
+    end_time {
+      seconds: 1736796412
+      nanos: 292000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\logcat-.Feature Inicio de Sesi\303\263n-Scenario Outline Entrada inv\303\241lida de username o password.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "Feature Inicio de Sesi\303\263n"
+    test_method: "Scenario Outline Entrada v\303\241lida de username y password"
+    start_time {
+      seconds: 1736796412
+      nanos: 324000000
+    }
+    end_time {
+      seconds: 1736796424
+      nanos: 178000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "androidx.test.espresso.NoMatchingViewException: No views in hierarchy found matching: view.getId() is <2131296890/com.alex.ultim2:id/updatePasswordButton>\n\nView Hierarchy:\n+>DecorView{id=-1, visibility=VISIBLE, width=1344, height=2992, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params={(0,0)(fillxfill) ty=BASE_APPLICATION wanim=0x1030308\nfl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS\npfl=NO_MOVE_ANIMATION FORCE_DRAW_STATUS_BAR_BACKGROUND FIT_INSETS_CONTROLLED\nbhv=DEFAULT\nfitSides=}, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=3}\n|\n+->LinearLayout{id=-1, visibility=VISIBLE, width=1344, height=2920, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}\n|\n+-->ViewStub{id=16908747, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\n|\n+-->FrameLayout{id=-1, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=136.0, child-count=1}\n|\n+--->FitWindowsLinearLayout{id=2131296309, res-name=action_bar_root, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}\n|\n+---->ViewStubCompat{id=2131296320, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\n|\n+---->ContentFrameLayout{id=16908290, res-name=content, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=1}\n|\n+----->LinearLayout{id=-1, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=6}\n|\n+------>MaterialTextView{id=-1, visibility=VISIBLE, width=935, height=177, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=204.0, y=706.0, text=IASA Seguimiento a graduados, input-type=0, ime-target=false, has-links=false}\n|\n+------>AppCompatImageView{id=-1, visibility=VISIBLE, width=384, height=444, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=480.0, y=889.0}\n|\n+------>MaterialTextView{id=2131296501, res-name=errorTextView, visibility=VISIBLE, width=1344, height=65, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=1381.0, text=Usuario o contrase\303\261a incorrectos, input-type=0, ime-target=false, has-links=false}\n|\n+------>AppCompatEditText{id=2131296895, res-name=usernameEditText, visibility=VISIBLE, width=864, height=169, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=true, editor-info=[inputType=0x1 imeOptions=0x8000005 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=10 initialSelEnd=10 initialToolType=0 initialCapsMode=0x0 hintText=Ingrese Cedula de Identidad label=null packageName=null autofillId=null fieldId=0 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, android.support.text.emoji.emojiCompat_replaceAll=false}] hintLocales=null supportedHandwritingGestureTypes=SELECT|SELECT_RANGE|INSERT|DELETE|DELETE_RANGE|REMOVE_SPACE|JOIN_OR_SPLIT supportedHandwritingGesturePreviewTypes=SELECT|SELECT_RANGE|DELETE|DELETE_RANGE isStylusHandwritingEnabled=false contentMimeTypes=null ], x=240.0, y=1494.0, text=1718605165, hint=Ingrese Cedula de Identidad, input-type=1, ime-target=false, has-links=false}\n|\n+------>AppCompatEditText{id=2131296666, res-name=passwordEditText, visibility=VISIBLE, width=846, height=169, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=true, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=true, editor-info=[inputType=0x81 imeOptions=0x4000006 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=10 initialSelEnd=10 initialToolType=0 initialCapsMode=0x0 hintText=Contrase\303\261a label=null packageName=null autofillId=null fieldId=0 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, android.support.text.emoji.emojiCompat_replaceAll=false}] hintLocales=null supportedHandwritingGestureTypes=SELECT|SELECT_RANGE|INSERT|DELETE|DELETE_RANGE|REMOVE_SPACE|JOIN_OR_SPLIT supportedHandwritingGesturePreviewTypes=SELECT|SELECT_RANGE|DELETE|DELETE_RANGE isStylusHandwritingEnabled=false contentMimeTypes=null ], x=249.0, y=1711.0, text=1718605155, hint=Contrase\303\261a, input-type=129, ime-target=true, has-links=false}\n|\n+------>MaterialButton{id=2131296577, res-name=loginButton, visibility=VISIBLE, width=448, height=144, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=448.0, y=1910.0, text=Iniciar sesi\303\263n, input-type=0, ime-target=false, has-links=false, is-checked=false}\n|\n+->View{id=16908336, res-name=navigationBarBackground, visibility=VISIBLE, width=1344, height=72, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=2920.0}\n|\n+->View{id=16908335, res-name=statusBarBackground, visibility=VISIBLE, width=1344, height=136, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\nThe complete view hierarchy is available in artifact file \'view-hierarchy-4.txt\'.\nat androidx.test.espresso.NoMatchingViewException$Builder.build(NoMatchingViewException.java:5)\nat androidx.test.espresso.base.DefaultFailureHandler.lambda$getNoMatchingViewExceptionTruncater$0(DefaultFailureHandler.java:5)\nat androidx.test.espresso.base.DefaultFailureHandler$$ExternalSyntheticLambda1.truncateExceptionMessage(Unknown Source:2)\nat androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:5)\nat androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:1)\nat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.alex.ultim2.test.MainActivityTest.I_should_see_on_next_activity(MainActivityTest.java:132)\nat \342\234\275.Then Deber\303\255a ver la siguiente actividad(features/login.feature:23)\n"
+    error_type: "androidx.test.espresso.NoMatchingViewException"
+    stack_trace: "androidx.test.espresso.NoMatchingViewException: No views in hierarchy found matching: view.getId() is <2131296890/com.alex.ultim2:id/updatePasswordButton>\n\nView Hierarchy:\n+>DecorView{id=-1, visibility=VISIBLE, width=1344, height=2992, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params={(0,0)(fillxfill) ty=BASE_APPLICATION wanim=0x1030308\nfl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS\npfl=NO_MOVE_ANIMATION FORCE_DRAW_STATUS_BAR_BACKGROUND FIT_INSETS_CONTROLLED\nbhv=DEFAULT\nfitSides=}, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=3}\n|\n+->LinearLayout{id=-1, visibility=VISIBLE, width=1344, height=2920, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}\n|\n+-->ViewStub{id=16908747, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\n|\n+-->FrameLayout{id=-1, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=136.0, child-count=1}\n|\n+--->FitWindowsLinearLayout{id=2131296309, res-name=action_bar_root, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}\n|\n+---->ViewStubCompat{id=2131296320, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\n|\n+---->ContentFrameLayout{id=16908290, res-name=content, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=1}\n|\n+----->LinearLayout{id=-1, visibility=VISIBLE, width=1344, height=2784, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=6}\n|\n+------>MaterialTextView{id=-1, visibility=VISIBLE, width=935, height=177, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=204.0, y=706.0, text=IASA Seguimiento a graduados, input-type=0, ime-target=false, has-links=false}\n|\n+------>AppCompatImageView{id=-1, visibility=VISIBLE, width=384, height=444, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=480.0, y=889.0}\n|\n+------>MaterialTextView{id=2131296501, res-name=errorTextView, visibility=VISIBLE, width=1344, height=65, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=1381.0, text=Usuario o contrase\303\261a incorrectos, input-type=0, ime-target=false, has-links=false}\n|\n+------>AppCompatEditText{id=2131296895, res-name=usernameEditText, visibility=VISIBLE, width=864, height=169, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=true, editor-info=[inputType=0x1 imeOptions=0x8000005 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=10 initialSelEnd=10 initialToolType=0 initialCapsMode=0x0 hintText=Ingrese Cedula de Identidad label=null packageName=null autofillId=null fieldId=0 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, android.support.text.emoji.emojiCompat_replaceAll=false}] hintLocales=null supportedHandwritingGestureTypes=SELECT|SELECT_RANGE|INSERT|DELETE|DELETE_RANGE|REMOVE_SPACE|JOIN_OR_SPLIT supportedHandwritingGesturePreviewTypes=SELECT|SELECT_RANGE|DELETE|DELETE_RANGE isStylusHandwritingEnabled=false contentMimeTypes=null ], x=240.0, y=1494.0, text=1718605165, hint=Ingrese Cedula de Identidad, input-type=1, ime-target=false, has-links=false}\n|\n+------>AppCompatEditText{id=2131296666, res-name=passwordEditText, visibility=VISIBLE, width=846, height=169, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=true, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=true, editor-info=[inputType=0x81 imeOptions=0x4000006 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=10 initialSelEnd=10 initialToolType=0 initialCapsMode=0x0 hintText=Contrase\303\261a label=null packageName=null autofillId=null fieldId=0 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, android.support.text.emoji.emojiCompat_replaceAll=false}] hintLocales=null supportedHandwritingGestureTypes=SELECT|SELECT_RANGE|INSERT|DELETE|DELETE_RANGE|REMOVE_SPACE|JOIN_OR_SPLIT supportedHandwritingGesturePreviewTypes=SELECT|SELECT_RANGE|DELETE|DELETE_RANGE isStylusHandwritingEnabled=false contentMimeTypes=null ], x=249.0, y=1711.0, text=1718605155, hint=Contrase\303\261a, input-type=129, ime-target=true, has-links=false}\n|\n+------>MaterialButton{id=2131296577, res-name=loginButton, visibility=VISIBLE, width=448, height=144, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=448.0, y=1910.0, text=Iniciar sesi\303\263n, input-type=0, ime-target=false, has-links=false, is-checked=false}\n|\n+->View{id=16908336, res-name=navigationBarBackground, visibility=VISIBLE, width=1344, height=72, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=2920.0}\n|\n+->View{id=16908335, res-name=statusBarBackground, visibility=VISIBLE, width=1344, height=136, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}\nThe complete view hierarchy is available in artifact file \'view-hierarchy-4.txt\'.\nat androidx.test.espresso.NoMatchingViewException$Builder.build(NoMatchingViewException.java:5)\nat androidx.test.espresso.base.DefaultFailureHandler.lambda$getNoMatchingViewExceptionTruncater$0(DefaultFailureHandler.java:5)\nat androidx.test.espresso.base.DefaultFailureHandler$$ExternalSyntheticLambda1.truncateExceptionMessage(Unknown Source:2)\nat androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:5)\nat androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:1)\nat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.alex.ultim2.test.MainActivityTest.I_should_see_on_next_activity(MainActivityTest.java:132)\nat \342\234\275.Then Deber\303\255a ver la siguiente actividad(features/login.feature:23)\n"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\logcat-.Feature Inicio de Sesi\303\263n-Scenario Outline Entrada v\303\241lida de username y password.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "Feature Inicio de Sesi\303\263n"
+    test_method: "Scenario Outline Entrada v\303\241lida de username y password"
+    start_time {
+      seconds: 1736796424
+      nanos: 218000000
+    }
+    end_time {
+      seconds: 1736796434
+      nanos: 752000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\logcat-.Feature Inicio de Sesi\303\263n-Scenario Outline Entrada v\303\241lida de username y password.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "Feature Gesti\303\263n de Sugerencias"
+    test_method: "Scenario Outline Enviar sugerencias exitosamente"
+    start_time {
+      seconds: 1736796434
+      nanos: 810000000
+    }
+    end_time {
+      seconds: 1736796466
+      nanos: 708000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\logcat-.Feature Gesti\303\263n de Sugerencias-Scenario Outline Enviar sugerencias exitosamente.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "Feature Gesti\303\263n de Sugerencias"
+    test_method: "Scenario Outline Intentar enviar sugerencias sin activar el check"
+    start_time {
+      seconds: 1736796466
+      nanos: 772000000
+    }
+    end_time {
+      seconds: 1736796488
+      nanos: 48000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "androidx.test.espresso.PerformException: Error performing \'type text(\"TemaA\")\' on view \'Animations or transitions are enabled on the target device.\nFor more info check: https://developer.android.com/training/testing/espresso/setup#set-up-environment\n\nview.getId() is <2131296487/com.alex.ultim2:id/editTextTema>\'.\nat androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)\nat androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)\nat androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)\nat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)\nat androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)\nat com.alex.ultim2.test.GestionSugerenciasSteps.I_attempt_to_input_topic(GestionSugerenciasSteps.java:142)\nat \342\234\275.And Intento ingresar el tema \"TemaA\"(features/suggestions.feature:37)\nCaused by: java.lang.RuntimeException: Action will not be performed because the target view does not match one or more of the following constraints:\n(((view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)) and (view.onCreateInputConnection() is not null or is assignable from class <class android.widget.SearchView>))\nTarget view: \"AppCompatEditText{id=2131296487, res-name=editTextTema, visibility=VISIBLE, width=1152, height=136, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=true, is-enabled=false, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=48.0, y=496.0, text=, hint=Tema a exponer, input-type=1, ime-target=false, has-links=false}\"\nat androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:20)\nat androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)\nat androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)\nat androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)\nat java.util.concurrent.FutureTask.run(FutureTask.java:264)\nat android.os.Handler.handleCallback(Handler.java:959)\nat android.os.Handler.dispatchMessage(Handler.java:100)\nat android.os.Looper.loopOnce(Looper.java:232)\nat android.os.Looper.loop(Looper.java:317)\nat android.app.ActivityThread.main(ActivityThread.java:8628)\nat java.lang.reflect.Method.invoke(Native Method)\nat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)\nat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:878)\n"
+    error_type: "java.lang.RuntimeException"
+    stack_trace: "androidx.test.espresso.PerformException: Error performing \'type text(\"TemaA\")\' on view \'Animations or transitions are enabled on the target device.\nFor more info check: https://developer.android.com/training/testing/espresso/setup#set-up-environment\n\nview.getId() is <2131296487/com.alex.ultim2:id/editTextTema>\'.\nat androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)\nat androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)\nat androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)\nat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)\nat androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)\nat com.alex.ultim2.test.GestionSugerenciasSteps.I_attempt_to_input_topic(GestionSugerenciasSteps.java:142)\nat \342\234\275.And Intento ingresar el tema \"TemaA\"(features/suggestions.feature:37)\nCaused by: java.lang.RuntimeException: Action will not be performed because the target view does not match one or more of the following constraints:\n(((view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)) and (view.onCreateInputConnection() is not null or is assignable from class <class android.widget.SearchView>))\nTarget view: \"AppCompatEditText{id=2131296487, res-name=editTextTema, visibility=VISIBLE, width=1152, height=136, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=true, is-enabled=false, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=48.0, y=496.0, text=, hint=Tema a exponer, input-type=1, ime-target=false, has-links=false}\"\nat androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:20)\nat androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)\nat androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)\nat androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)\nat java.util.concurrent.FutureTask.run(FutureTask.java:264)\nat android.os.Handler.handleCallback(Handler.java:959)\nat android.os.Handler.dispatchMessage(Handler.java:100)\nat android.os.Looper.loopOnce(Looper.java:232)\nat android.os.Looper.loop(Looper.java:317)\nat android.app.ActivityThread.main(ActivityThread.java:8628)\nat java.lang.reflect.Method.invoke(Native Method)\nat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)\nat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:878)\n"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\logcat-.Feature Gesti\303\263n de Sugerencias-Scenario Outline Intentar enviar sugerencias sin activar el check.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "Feature Actualizaci\303\263n de Datos Personales"
+    test_method: "Scenario Outline Actualizar datos personales correctamente"
+    start_time {
+      seconds: 1736796488
+      nanos: 61000000
+    }
+    end_time {
+      seconds: 1736796544
+      nanos: 38000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1841)\nat androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:2)\nat androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:1)\nat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.alex.ultim2.test.UpdateUserDataTest.deberiaVerPantallaDeActualizacionDeDatos(UpdateUserDataTest.java:82)\nat \342\234\275.Then Deber\303\255a ver la pantalla de actualizaci\303\263n de datos personales(features/updatedatauser.feature:12)\n"
+    error_type: "androidx.test.espresso.NoActivityResumedException"
+    stack_trace: "androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1841)\nat androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:2)\nat androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:1)\nat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.alex.ultim2.test.UpdateUserDataTest.deberiaVerPantallaDeActualizacionDeDatos(UpdateUserDataTest.java:82)\nat \342\234\275.Then Deber\303\255a ver la pantalla de actualizaci\303\263n de datos personales(features/updatedatauser.feature:12)\n"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\logcat-.Feature Actualizaci\303\263n de Datos Personales-Scenario Outline Actualizar datos personales correctamente.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "Feature Actualizaci\303\263n de Datos Personales"
+    test_method: "Scenario Outline Actualizar datos personales correctamente"
+    start_time {
+      seconds: 1736796544
+      nanos: 51000000
+    }
+    end_time {
+      seconds: 1736796594
+      nanos: 182000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1841)\nat androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:2)\nat androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:1)\nat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.alex.ultim2.test.UpdateUserDataTest.deberiaVerPantallaDeActualizacionDeDatos(UpdateUserDataTest.java:82)\nat \342\234\275.Then Deber\303\255a ver la pantalla de actualizaci\303\263n de datos personales(features/updatedatauser.feature:12)\n"
+    error_type: "androidx.test.espresso.NoActivityResumedException"
+    stack_trace: "androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1841)\nat androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:2)\nat androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:1)\nat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.alex.ultim2.test.UpdateUserDataTest.deberiaVerPantallaDeActualizacionDeDatos(UpdateUserDataTest.java:82)\nat \342\234\275.Then Deber\303\255a ver la pantalla de actualizaci\303\263n de datos personales(features/updatedatauser.feature:12)\n"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\logcat-.Feature Actualizaci\303\263n de Datos Personales-Scenario Outline Actualizar datos personales correctamente.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "Feature Actualizaci\303\263n de Datos Personales"
+    test_method: "Scenario Outline Actualizar datos personales incorrectamente"
+    start_time {
+      seconds: 1736796594
+      nanos: 188000000
+    }
+    end_time {
+      seconds: 1736796648
+      nanos: 95000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1841)\nat androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:2)\nat androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:1)\nat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.alex.ultim2.test.UpdateUserDataTest.deberiaVerPantallaDeActualizacionDeDatos(UpdateUserDataTest.java:82)\nat \342\234\275.Then Deber\303\255a ver la pantalla de actualizaci\303\263n de datos personales(features/updatedatauser.feature:32)\n"
+    error_type: "androidx.test.espresso.NoActivityResumedException"
+    stack_trace: "androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1841)\nat androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:2)\nat androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:1)\nat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.alex.ultim2.test.UpdateUserDataTest.deberiaVerPantallaDeActualizacionDeDatos(UpdateUserDataTest.java:82)\nat \342\234\275.Then Deber\303\255a ver la pantalla de actualizaci\303\263n de datos personales(features/updatedatauser.feature:32)\n"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\logcat-.Feature Actualizaci\303\263n de Datos Personales-Scenario Outline Actualizar datos personales incorrectamente.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "Feature Actualizaci\303\263n de Datos Personales"
+    test_method: "Scenario Outline Actualizar datos personales incorrectamente"
+    start_time {
+      seconds: 1736796648
+      nanos: 105000000
+    }
+    end_time {
+      seconds: 1736796698
+      nanos: 625000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1841)\nat androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:2)\nat androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:1)\nat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.alex.ultim2.test.UpdateUserDataTest.deberiaVerPantallaDeActualizacionDeDatos(UpdateUserDataTest.java:82)\nat \342\234\275.Then Deber\303\255a ver la pantalla de actualizaci\303\263n de datos personales(features/updatedatauser.feature:32)\n"
+    error_type: "androidx.test.espresso.NoActivityResumedException"
+    stack_trace: "androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1841)\nat androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:2)\nat androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:1)\nat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.alex.ultim2.test.UpdateUserDataTest.deberiaVerPantallaDeActualizacionDeDatos(UpdateUserDataTest.java:82)\nat \342\234\275.Then Deber\303\255a ver la pantalla de actualizaci\303\263n de datos personales(features/updatedatauser.feature:32)\n"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\logcat-.Feature Actualizaci\303\263n de Datos Personales-Scenario Outline Actualizar datos personales incorrectamente.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\User\\Documents\\GitHub\\cucumberDinamicas\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_8_Pro_API_VanillaIceCream(AVD) - 14\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}
