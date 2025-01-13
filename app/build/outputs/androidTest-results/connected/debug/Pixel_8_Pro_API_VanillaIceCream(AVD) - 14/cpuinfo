@@ -19,7 +19,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 movbe popcnt aes f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch topoext ssbd vmmcall fsgsbase bmi1 smep bmi2 rdseed adx clflushopt sha_ni clzero xsaveerptr arat
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso div0
-bogomips	: 4591.27
+bogomips	: 4591.39
 TLB size	: 2560 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -47,7 +47,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 movbe popcnt aes f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch topoext ssbd vmmcall fsgsbase bmi1 smep bmi2 rdseed adx clflushopt sha_ni clzero xsaveerptr arat
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso div0
-bogomips	: 4890.90
+bogomips	: 4690.24
 TLB size	: 2560 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -75,7 +75,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 movbe popcnt aes f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch topoext ssbd vmmcall fsgsbase bmi1 smep bmi2 rdseed adx clflushopt sha_ni clzero xsaveerptr arat
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso div0
-bogomips	: 5146.67
+bogomips	: 4425.18
 TLB size	: 2560 4K pages
 clflush size	: 64
 cache_alignment	: 64
@@ -103,7 +103,7 @@ cpuid level	: 13
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 movbe popcnt aes f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch topoext ssbd vmmcall fsgsbase bmi1 smep bmi2 rdseed adx clflushopt sha_ni clzero xsaveerptr arat
 bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso div0
-bogomips	: 4563.22
+bogomips	: 5111.79
 TLB size	: 2560 4K pages
 clflush size	: 64
 cache_alignment	: 64

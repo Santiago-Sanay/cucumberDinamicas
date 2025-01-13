@@ -13,7 +13,6 @@ Feature: Inicio de Sesión
       | username   | password   |
       | invalid    | 123456     |
       | 1718605155 | wrongpass  |
-      | invalid    | wrongpass  |
 
   @login-feature
   Scenario Outline: Entrada válida de username y password
