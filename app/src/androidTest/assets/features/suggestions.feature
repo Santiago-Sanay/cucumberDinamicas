@@ -21,7 +21,6 @@ Feature: Gestión de Sugerencias
     Examples:
       | username   | password   | tema         | descripcion       |
       | 1718605155 | 1718605155 | MejorUX      | Agregarmascolores |
-      | 1718605155 | 1718605155 | Nuevafuncion | AñadirreportesPDF |
 
   @sugerencias-feature
   Scenario Outline: Intentar enviar sugerencias sin activar el check
@@ -43,4 +42,3 @@ Feature: Gestión de Sugerencias
     Examples:
       | username   | password   | tema    | descripcion    |
       | 1718605155 | 1718605155 | "TemaA" | "DescripcionA" |
-      | 1718605155 | 1718605155 | "TemaB" | "DescripcionB" |

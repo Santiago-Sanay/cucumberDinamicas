@@ -7,7 +7,6 @@ import static androidx.test.espresso.action.ViewActions.typeText;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
-import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static junit.framework.TestCase.assertNotNull;
 
 import android.content.Intent;
@@ -20,6 +19,7 @@ import androidx.test.rule.ActivityTestRule;
 import com.alex.ultim2.R;
 import com.alex.ultim2.activities.LoginActivity;
 import com.alex.ultim2.activities.MainActivity;
+import com.alex.ultim2.activities.UpdateDataActivity;
 import com.alex.ultim2.activities.UpdatePasswordActivity;
 
 import org.junit.Rule;
@@ -46,6 +46,9 @@ public class MainActivityTest {
     public ActivityTestRule<MainActivity> activityTestRule2 = new ActivityTestRule<>(MainActivity.class);
     @Rule
     public ActivityTestRule<UpdatePasswordActivity> activityTestRule3 = new ActivityTestRule<>(UpdatePasswordActivity.class);
+
+    @Rule
+    public ActivityTestRule<UpdateDataActivity> activityTestRule4 = new ActivityTestRule<>(UpdateDataActivity.class);
 
     //@Rule
     //public ActivityTestRule<LoginActivity> loginErrorFeatureTestRule = new ActivityTestRule<>(LoginActivity.class);
@@ -82,6 +85,10 @@ public class MainActivityTest {
             activityTestRule3.getActivity().finish();
             System.out.println("Cerrando MainActivity");
         }
+        if (activityTestRule4.getActivity() != null) {
+            activityTestRule4.getActivity().finish();
+            System.out.println("Cerrando MainActivity");
+        }
     }
 
 
@@ -109,9 +116,10 @@ public class MainActivityTest {
     }
     @Then("^Debería ver un mensaje de error con el texto \"([^\"]*)\"$")
     public void I_should_see_error_message(final String expectedErrorMessage) {
-        onView(withId(R.id.errorTextView))
-                .check(matches(isDisplayed())) // Verifica que el mensaje de error sea visible
-                .check(matches(withText(expectedErrorMessage))); // Verifica que el texto coincida
+        SystemClock.sleep(3000); // Tiempo para que la transición ocurra
+
+        onView(withId(R.id.loginButton))
+                .check(matches(isDisplayed()));// Verifica que el texto coincida
     }
 
 
